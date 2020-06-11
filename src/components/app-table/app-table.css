@@ -1,0 +1,47 @@
+table {
+  color: white;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  overflow: hidden;
+}
+
+table tr {
+  color: var(--font-color);
+}
+table th {
+  padding: var(--td-padding);
+}
+table thead tr {
+  height: 60px;
+  color: var(--font-thead-color);
+  white-space: nowrap;
+}
+table thead {
+  background-color: var(--font-color);
+}
+table tbody tr:nth-child(odd) {
+  background-color: var(--tr-odd-color);
+}
+table tr:nth-child(even) {
+  background-color: var(--tr-even-color);
+}
+table tbody tr {
+  cursor: pointer;
+}
+table tbody tr:hover {
+  background-color: var(--tr-hover-color);
+}
+table td {
+  padding: var(--td-padding);
+  text-align: center;
+}
+table td:first-child {
+  text-align: left;
+}
+@media screen and (max-width: 1100px) {
+  table {
+    margin: var(--margin) 0;
+  }
+}

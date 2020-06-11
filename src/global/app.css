@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+body {
+  --font-color: rgba(54, 48, 74, 1);
+  --font-thead-color: white;
+  --tr-odd-color: rgba(54, 48, 74, 0);
+  --tr-even-color: rgba(54, 48, 74, 0.09);
+  --tr-hover-color: rgba(54, 48, 74, 0.15);
+  --button-color: rgba(54, 48, 74, 1);
+  --button-hover-color: rgba(54, 48, 74, 0.8);
+  --td-padding: 20px;
+  --radius: 5px;
+  --margin: 30px;
+
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
